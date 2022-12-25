@@ -1,0 +1,10 @@
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2vh;
+    cursor: pointer;
+    padding-bottom: 45px;
+    padding-top: 45px;
+    color: rgb(241, 211, 62);
+  }

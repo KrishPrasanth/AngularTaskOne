@@ -1,0 +1,108 @@
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<h1  style="text-align: center; color: rgba(255, 0, 0, 0.776);"><a href="">Angular</a></h1>
+     <div class="container-fluid" style="background-color:rgb(230, 218, 56)">
+      <div class="navbar-expand-lg navbar-light ">
+      <div class="row">
+        <div class="col-md-2" style="padding:5px;">
+          <a class="navbar-brand" href="#">
+            <img src="..\..\..\assets\images\grt_logo.png" width="100" height="70">
+          </a>
+        </div>
+        <div class="col-md-5">
+          <form class="d-flex" style="padding-top:30px;">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          </form>
+          </div>
+          <div class="col-md-5">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-4  mb-2 mb-100 px-3">
+              <li>
+                <div>
+                  <br/>
+                  <div ngbDropdown>
+                    <button class="btn btn-warning" id="help" 
+                            ngbDropdownToggle>24/7 help</button>
+                    <div ngbDropdownMenu="gfg">
+                      <h6 ngbDropdownItem style="color: rgb(59, 83, 216);">Get help from our experts 24/7
+                        888-888-xxx </h6>
+                      <h6 ngbDropdownItem style="color: rgb(59, 83, 216);text-align: center;"><a href="contact">Contact Us</a></h6>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              &nbsp;&nbsp;
+              <li>
+                <div>
+                  <br/>
+                  <div ngbDropdown>
+                    <button class="btn btn-warning" id="loginSignup" 
+                            ngbDropdownToggle>Login & SignUp</button>
+                    <div ngbDropdownMenu="gfg">
+                      <a ngbDropdownItem href="login" id="login" style="text-decoration: none;">Log in<i class="arrow right"></i></a>
+                      <a ngbDropdownItem href="signup" id="signup" style="text-decoration: none;">New Customer? Signup<i class="arrow right"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <li>
+                <div>
+                  <br/>
+                  <div>
+                    <a href="cart" id="cart" style="background-color: rgb(236, 184, 89);text-decoration:none;margin-right:auto;" class="btn btn-info btn-lg">
+                      <span class="fa fa-shopping-cart arrow right" ></span> Cart
+                    </a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+        </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row">
+              <div class="col-md-8">
+                <ul class="navbar-nav ms-auto  mb-2 px-3">
+                  <li>
+                    <div class="col">
+                      <br/>
+                      <div ngbDropdown>
+                        <button class="btn btn-warning" id="gld" 
+                                ngbDropdownToggle>Shop by Gold Jewellery</button>
+                        <div ngbDropdownMenu="gfg">
+                          <a ngbDropdownItem href="necklace" id="ncklc" style="text-decoration: none;">Necklaces<i class="arrow right"></i></a>
+                          <a ngbDropdownItem href="earring" id="erng" style="text-decoration: none;">Earrings<i class="arrow right"></i></a>
+                          <a ngbDropdownItem href="ring" id="rng" style="text-decoration: none;">Rings<i class="arrow right"></i></a>
+                          <a ngbDropdownItem href="bangle" id="bngl" style="text-decoration: none;">Bangles<i class="arrow right"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  &nbsp;
+                  <li>
+                    <div class="col">
+                      <br/>
+                      <div ngbDropdown>
+                        <button class="btn btn-warning" id="diamond" 
+                                ngbDropdownToggle disabled>Shop by Diamond Jewellery</button>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="col">
+                <br/>
+                <div>
+                  <button class="btn btn-warning" id="freeShip" 
+                          disabled>FREE 1-2 DAY FREE SHIPPING OVER $50<span class="fa fa-trucks"></span></button>
+                </div>
+              </div>
+          </div>
+        </div>
+     </div>
+     </div>
+     </div>
